@@ -1,0 +1,19 @@
+body, button, input, select, textarea {
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+}
+
+body {
+    overflow: scroll;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}

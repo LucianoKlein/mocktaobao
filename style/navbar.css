@@ -1,0 +1,47 @@
+@font-face{font-family:iconfont;src:url(//at.alicdn.com/t/font_567181_xfmc295xqofj38fr.eot);src:url(//at.alicdn.com/t/font_567181_xfmc295xqofj38fr.eot?#iefix) format('embedded-opentype'),url(//at.alicdn.com/t/font_567181_xfmc295xqofj38fr.woff) format('woff'),url(//at.alicdn.com/t/font_567181_xfmc295xqofj38fr.ttf) format('truetype'),url(//at.alicdn.com/t/font_567181_xfmc295xqofj38fr.svg#iconfont) format('svg')}
+.site-nav{color:#6c6c6c;background-color:#f5f5f5;width:100%}
+.site-nav:after{content:'';display:block;clear:both}
+.site-nav .site-nav-bd{margin:0 96.5px}
+.site-nav .site-nav-bd::after{content:'';display:block;clear:both}
+.site-nav-bd-1::after{content:'';display:block;clear:both}
+.site-nav .site-nav-bd-1{float:left;list-style:none}
+.cover .site-nav .site-nav-menu{float:left;display:block;padding:0 6px;height:35px;line-height:35px}
+.cover .site-nav-menu .site-nav-region{color:#3c3c3c;float:left;margin-right:7px}
+.cover .site-nav-menu span{display:block;float:left}
+.cover .site-nav-menu a span{margin-right:7px}
+.cover .site-nav .site-nav-pipe{float:left;height:35px;line-height:35px;color:#ddd;margin-right:5px;margin-left:5px}
+.cover .site-nav-menu .mobile-gtb{margin-left:7px}
+.site-nav .nav-sign .login-red{float:left;color:#f22e00;margin-right:7px}
+.site-nav-icon{font-family:iconfont;color:#9c9c9c;display:block;float:left;margin-top:16px;line-height:1px}
+.site-nav-bd-r{float:right;list-style:none}
+.site-nav-bd-r::after{content:'';display:block;clear:both}
+.site-nav-bd-r .shopping-cart-icon{margin-right:5px;color:#f40;font-size:14px;margin-top:17px}
+.site-nav-bd-r .shopping-cart{margin-right:7px}
+.site-nav-bd-r .star-icon{margin-top:17px;margin-right:3px;font-size:15px}
+.site-nav-bd-r .mytb{margin-right:7px}
+.site-nav-bd-r .merchandise-category{margin-right:14px}
+.site-nav-bd-r .folder{margin-right:7px}
+.site-nav-bd-r .seller-center{margin-right:7px}
+.site-nav-bd-r .menu{color:#f40}
+.cover .site-nav-menu-hover:hover{background-color:#fff}
+
+.cover .banner {
+    overflow: hidden;
+}
+
+.cover .banner .bannerWrapper {
+    text-align: center;
+    background: #fe2323;
+}
+
+.cover .banner a {
+    cursor: pointer;
+
+}
+
+.cover .banner .bannerWrapper img {
+    position: relative;
+    margin: 0 auto;
+    z-index: 1;
+    display: block;
+}
