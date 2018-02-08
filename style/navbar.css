@@ -1,5 +1,5 @@
 @font-face{font-family:iconfont;src:url(//at.alicdn.com/t/font_567181_xfmc295xqofj38fr.eot);src:url(//at.alicdn.com/t/font_567181_xfmc295xqofj38fr.eot?#iefix) format('embedded-opentype'),url(//at.alicdn.com/t/font_567181_xfmc295xqofj38fr.woff) format('woff'),url(//at.alicdn.com/t/font_567181_xfmc295xqofj38fr.ttf) format('truetype'),url(//at.alicdn.com/t/font_567181_xfmc295xqofj38fr.svg#iconfont) format('svg')}
-.site-nav{color:#6c6c6c;background-color:#f5f5f5;width:100%}
+.site-nav{color:#6c6c6c;background-color:#f5f5f5;width:100%;height:36px}
 .site-nav:after{content:'';display:block;clear:both}
 .site-nav .site-nav-bd{margin:0 96.5px}
 .site-nav .site-nav-bd::after{content:'';display:block;clear:both}
@@ -22,26 +22,48 @@
 .site-nav-bd-r .merchandise-category{margin-right:14px}
 .site-nav-bd-r .folder{margin-right:7px}
 .site-nav-bd-r .seller-center{margin-right:7px}
-.site-nav-bd-r .menu{color:#f40}
+.site-nav-bd-r .menu{color:#f40;margin-right:4px}
 .cover .site-nav-menu-hover:hover{background-color:#fff}
+.cover .banner{overflow:hidden}
+.cover .banner .bannerWrapper{text-align:center;background:#fe2323}
+.cover .banner a{cursor:pointer}
+.cover .banner .bannerWrapper img{margin:0 auto;display:block}
 
-.cover .banner {
-    overflow: hidden;
+.cup .top-wrap {
+    margin: 0 96.5px;
 }
-
-.cover .banner .bannerWrapper {
-    text-align: center;
-    background: #fe2323;
-}
-
-.cover .banner a {
-    cursor: pointer;
-
-}
-
-.cover .banner .bannerWrapper img {
-    position: relative;
-    margin: 0 auto;
-    z-index: 1;
+.clearfix::after {
+    content: '';
+    clear: both;
     display: block;
+}
+
+.top-wrap .logo-hover {
+    float: left;
+}
+
+.top-search-wrapper .search-button {
+    color: #fff;
+    background-color: #ff4200;
+    font-weight: 700;
+    font-size: 18px;
+    height: 100%;
+    border: none;
+    width: 100%;
+    background-repeat: repeat-x;
+    background-image: linear-gradient(to right, #ff9000 0, #ff5000 100%);
+}
+
+.top-wrap .top-search-wrapper {
+    float: left;
+    margin-left: 258px;
+    margin-right: 302px;
+}
+
+.top-wrap .qr-wrapper {
+    float: left;
+}
+
+.switchable-nav .search-tab {
+    float: left;
 }
