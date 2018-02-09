@@ -1,0 +1,65 @@
+.topNavBar-wrap {
+    display: block;
+    font-size: 16px;
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.topNavBar-wrap .topnavbar {
+    margin: 0 auto;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.topNavBar-wrap .nav-li {
+    float: left;
+}
+
+.topNavBar-wrap .topnavbar h2 {
+    float: left;
+    background-color: #ff5000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 3px 61px;
+}
+
+.topNavBar-wrap .topnavbar ul {
+    float: left;
+}
+
+.topNavBar-wrap .rightarea {
+    background-image: linear-gradient(to right, #ff9000 0, #ff5000 100%);
+    background-repeat: repeat-x;
+    display: flex;
+    float: left;
+    padding: 3px 0;
+    width: calc(1190px - 190px);
+    overflow-x: hidden;
+    line-height: 24px;
+}
+
+.rightarea .nav-li {
+    margin: 0 11px 0 10px;
+}
+
+.rightarea .nav-pipe {
+    float: left;
+    font-size: 14px;
+    font-weight: normal;
+    display: block;
+}
+
+.rightarea .nav-bigfont {
+    font-size: 16px;
+}
+
+.rightarea .nav-smallfont {
+    font-size: 14px;
+}
+
+.rightarea .last-nav {
+    margin-right: 160px;
+}
+

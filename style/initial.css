@@ -5,13 +5,22 @@ body, button, input, select, textarea {
 }
 
 body {
-    overflow: scroll;
+    overflow-y: scroll;
+    background-color: #f4f4f4;
 }
 
 a, ul, li {
     text-decoration: none;
     list-style: none;
     color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-family: inherit;
+    font-size: inherit;
+    margin: 0;
+    padding: 0;
 }
 
 * {
